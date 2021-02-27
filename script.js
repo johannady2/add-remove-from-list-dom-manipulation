@@ -23,8 +23,9 @@ function addToListAfterKeyPress(event)
 {
     console.log(event);
 
-    if(event.keyCode === 13)
+    if(event.key === 'Enter' || event.keyCode === 13 )//keyCode and which are already depricated. 13 = Enter key
     {
+        
         appendNewListItem();
     }
 }
