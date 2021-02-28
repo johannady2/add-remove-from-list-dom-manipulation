@@ -15,7 +15,7 @@ h2
 
 #toDoListUl li
 {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .deleteThisItem
@@ -25,4 +25,17 @@ h2
     border: 0px;
     border-radius: 5px;
     margin-right: 5px;
+}
+
+.deleteThisItem
+{
+    margin-right:8px;
+}
+.itemCheckBox
+{
+    margin-right: 5px;
+}
+.done
+{
+    text-decoration: line-through;
 }
