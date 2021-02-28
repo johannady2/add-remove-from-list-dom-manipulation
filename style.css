@@ -1,4 +1,28 @@
-h1
+body
+{
+    font-family:Verdana;
+}
+h2
 {
     color: red;
+}
+
+#toDoListUl
+{
+    list-style: none;
+    padding: 0px;
+}
+
+#toDoListUl li
+{
+    margin-bottom: 5px;
+}
+
+.deleteThisItem
+{
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 5px;
 }
