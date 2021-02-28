@@ -14,7 +14,7 @@ function appendNewListItem()
 
         /*<button class="deleteThisItem">x</button>*/
         var newDeleteBtn = document.createElement('button');
-        newDeleteBtn.innerHTML = 'x';
+        newDeleteBtn.textContent = 'x';
         newDeleteBtn.className = 'deleteThisItem';
 
         /*<input type="checkbox" class="itemCheckBox">*/
@@ -109,7 +109,7 @@ document.getElementById('enterItemBtn').addEventListener('click',appendNewListIt
 document.getElementById('removeItemBtn').addEventListener('click', removeLastItem);
 document.getElementById('clearList').addEventListener('click', ()=>
 {
-    ul.innerHTML = '';
+    ul.textContent = '';
 });
 
 
